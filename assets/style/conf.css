@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-verde: #8EC5B7;
+    --cor-fundo: #000;
+    --cor-branco: #fff;
+
+    --font-padrao:'Arial', Helvetica, sans-serif;
+}
+
+body{
+    background-color: #000000;
+}
+
