@@ -1,0 +1,54 @@
+.know {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.know .photos {
+    width: 100%;
+    margin: 3vw; 
+    position: relative;
+    font-family: var(--font-padrao);
+
+}
+
+.know .photo1 {
+    width: 25vw; 
+    height: 25vw;
+}
+
+.know .photo2 {
+    width: 25vw; 
+    height: 10vw; 
+    background-image: url(../img/relogio.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.know .photo3 {
+    width: 13vw; 
+    height: 13vw;
+    position: absolute;
+    bottom: 0;
+    right: -13.3vw;
+}
+
+
+.know .title {
+    color: white;
+    width: 70%;
+    position: absolute;
+    right: 0;
+    top: 0rem;
+}
+
+.know .title h3 {
+    font-size: 6rem;
+    line-height: .8;
+}
+
+.know .title p{
+    font-size: 1.5rem;
+}

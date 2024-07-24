@@ -1,0 +1,47 @@
+.start {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    height: 85vh;
+    width: 100%;
+    background-image: url(../img/fundo.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.start h3 {
+    font-size: 10rem;
+    color: var(--cor-branco);
+    line-height: 1;
+    margin-left: 3rem;
+}
+
+
+.start h2 {
+    font-size: 15rem;
+    font-weight: bold;
+    color: var(--cor-verde);
+    text-shadow: 8px 8px 1px rgba(95, 95, 95, 0.628);
+    margin-left: 3rem;
+
+}
+
+@media only screen and (max-width: 1820px) {
+    .start {
+        width: 100%;
+    }
+
+    .start h3 {
+        font-size: 4rem;
+        color: var(--cor-branco);
+        line-height: 1;
+        margin-left: 3rem;
+    }
+
+    .start h2 {
+        font-size: 6rem;
+    }
+
+}

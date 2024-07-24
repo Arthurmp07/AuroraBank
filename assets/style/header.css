@@ -1,14 +1,15 @@
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
     padding: 2rem 3rem;
+    overflow: hidden;
 }
 
-header::after{
+header::after {
     content: '';
-    width: 100%;
+    width: 120%;
     color: white;
     border: 1px solid white;
     position: absolute;
@@ -18,21 +19,21 @@ header::after{
 
 /*Logo*/
 
-header img{
+header img {
     width: 200px;
     cursor: pointer;
 }
 
 /*Menu*/
 
-header nav{
+header nav {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5rem;
 }
 
-header nav a{
+header nav a {
     display: flex;
     align-items: center;
     color: white;
@@ -41,21 +42,38 @@ header nav a{
     font-size: 1.8rem;
 }
 
-header nav a ion-icon{
+header nav a ion-icon {
     rotate: 90deg;
 }
 
-header .btn{
+header .btn {
     display: flex;
     gap: 2rem;
 }
 
-header .btn button{
+header .btn button {
     padding: 1rem 0rem;
     width: 200px;
     font-family: var(--font-padrao);
     font-weight: 400;
     font-size: 1.3rem;
-    border-radius: 5px;
+    border-radius: 10px;
+    background-color: var(--cor-branco);
     cursor: pointer;
+}
+
+@media only screen and (max-width: 1820px) {
+    header nav {
+        gap: 3rem;
+    }
+
+    header nav a {
+        font-size: 1.5rem;
+    }
+
+    header .btn button {
+        width: 160px;
+        padding: 0.7rem 0rem;
+    }
+
 }
