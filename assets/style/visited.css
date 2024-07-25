@@ -3,21 +3,24 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: var(--font-padrao);
 }
 
 .visited h2{
     color: white;
     font-size: 7rem;
+    font-family: var(--font-destaque);
 }
 
 .visited h1{
     color: white;
     font-size: 20rem;
+    font-family: var(--font-destaque);
+    font-weight: 600;
 }
 
 .visited p{
     color: white;
     font-size: 2.5rem;
     text-align: center;
+    font-family: var(--font-padrao);
 }
