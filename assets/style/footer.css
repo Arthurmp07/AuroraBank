@@ -1,0 +1,111 @@
+footer{
+    display: flex; 
+    position: relative;
+    justify-content: space-around;
+    padding-bottom: 8rem;
+}
+
+footer::after{
+    content: '';
+    width: 100%;
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+}
+
+.div-footer .sociais{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+}
+
+.sociais img{
+    width: 400px;
+    height: auto;
+}
+
+.sociais .icons{
+    height: 80px;
+    position: relative;
+    padding: 0 1rem;
+}
+
+.sociais .icons a i{
+    color: white;
+    font-size: 60px;
+    padding-right: 1.5rem;    
+}
+
+.credits{
+    display: flex;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+.credits .info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info h2{
+    color: var(--cor-verde);
+    text-align: center;
+    font-size: 3rem;
+}
+
+.info a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.contact{
+    line-height: 3.2rem;
+}
+
+.contact h2{
+    color: var(--cor-verde);
+    font-size: 3rem;
+}
+
+.contact spam{
+    color: white;
+    font-size: 2rem;
+}
+
+.contact spam::after{
+    content: "";
+    width: 420px;
+    border: 1px solid white;
+    position: absolute;
+}
+
+.contact p{
+    color: white;
+    font-size: 2rem;
+}
+
+.contact a{
+    color: var(--cor-verde); 
+    font-size: 2rem; 
+    font-weight: bolder; 
+}
+
+aside{
+    height: 80px;
+}
+
+aside p{
+    text-align: left;
+    color: rgb(97, 97, 97);
+    padding: 2rem 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: var(--font-padrao);
+}
+
