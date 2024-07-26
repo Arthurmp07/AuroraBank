@@ -8,6 +8,16 @@
     justify-content: space-around;
 }
 
+.solutions::after{
+    content: '';
+    width: 120%;
+    color: white;
+    border: 3px solid white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
 .text-solutions{
     text-align: right;
     position: absolute;
