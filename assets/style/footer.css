@@ -1,11 +1,11 @@
-footer{
-    display: flex; 
+footer {
+    display: flex;
     position: relative;
     justify-content: space-around;
     padding-bottom: 8rem;
 }
 
-footer::after{
+footer::after {
     content: '';
     width: 100%;
     color: white;
@@ -16,47 +16,47 @@ footer::after{
     left: 0;
 }
 
-.div-footer .sociais{
+.div-footer .sociais {
     display: flex;
     flex-direction: column;
     padding-left: 5rem;
 }
 
-.sociais img{
+.sociais img {
     width: 400px;
     height: auto;
 }
 
-.sociais .icons{
+.sociais .icons {
     height: 80px;
     position: relative;
     padding: 0 1rem;
 }
 
-.sociais .icons a i{
+.sociais .icons a i {
     color: white;
     font-size: 60px;
-    padding-right: 1.5rem;    
+    padding-right: 1.5rem;
 }
 
-.credits{
+.credits {
     display: flex;
     gap: 5rem;
     margin-top: 3rem;
 }
 
-.credits .info{
+.credits .info {
     display: flex;
     flex-direction: column;
 }
 
-.info h2{
+.info h2 {
     color: var(--cor-verde);
     text-align: center;
     font-size: 3rem;
 }
 
-.info a{
+.info a {
     color: white;
     text-decoration: none;
     text-align: center;
@@ -64,43 +64,43 @@ footer::after{
     line-height: 2.5rem;
 }
 
-.contact{
+.contact {
     line-height: 3.2rem;
 }
 
-.contact h2{
+.contact h2 {
     color: var(--cor-verde);
     font-size: 3rem;
 }
 
-.contact spam{
+.contact spam {
     color: white;
     font-size: 2rem;
 }
 
-.contact spam::after{
+.contact spam::after {
     content: "";
-    width: 420px;
+    width: 210px;
     border: 1px solid white;
     position: absolute;
 }
 
-.contact p{
+.contact p {
     color: white;
     font-size: 2rem;
 }
 
-.contact a{
-    color: var(--cor-verde); 
-    font-size: 2rem; 
-    font-weight: bolder; 
+.contact a {
+    color: var(--cor-verde);
+    font-size: 2rem;
+    font-weight: bolder;
 }
 
-aside{
+aside {
     height: 80px;
 }
 
-aside p{
+aside p {
     text-align: left;
     color: rgb(97, 97, 97);
     padding: 2rem 3rem;
@@ -108,4 +108,3 @@ aside p{
     font-weight: bold;
     font-family: var(--font-padrao);
 }
-

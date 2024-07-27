@@ -17,12 +17,14 @@ header::after {
     left: 0;
 }
 
+
 /*Logo*/
 
 header img {
     width: 200px;
     cursor: pointer;
 }
+
 
 /*Menu*/
 
@@ -66,14 +68,11 @@ header .btn button {
     header nav {
         gap: 3rem;
     }
-
     header nav a {
         font-size: 1.5rem;
     }
-
     header .btn button {
         width: 160px;
         padding: 0.7rem 0rem;
     }
-
 }

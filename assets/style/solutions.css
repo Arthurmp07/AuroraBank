@@ -1,4 +1,4 @@
-.solutions{
+.solutions {
     display: flex;
     position: relative;
     overflow: hidden;
@@ -8,7 +8,7 @@
     justify-content: space-around;
 }
 
-.solutions::after{
+.solutions::after {
     content: '';
     width: 120%;
     color: white;
@@ -18,33 +18,33 @@
     left: 0;
 }
 
-.text-solutions{
+.text-solutions {
     text-align: right;
     position: absolute;
     left: 10rem;
 }
 
-.text-solutions span{
+.text-solutions span {
     color: var(--cor-verde);
 }
 
-.text-solutions h2{
+.text-solutions h2 {
     color: white;
     font-size: 4rem;
     margin-bottom: 1rem;
 }
 
-.text-solutions p{
+.text-solutions p {
     color: white;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: var(--font-destaque);
     font-weight: bold;
 }
 
-.image-solutions img{
+.image-solutions img {
     width: 100rem;
     height: auto;
     position: absolute;
     bottom: 0;
-    right: -20rem;
+    left: 48rem;
 }
